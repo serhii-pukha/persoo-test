@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__search">shoes</div>
+                <div class="header__cart">
+                    <img src="img/icons/icon-cart.svg" alt="" class="cart__icon">
+                    <span class="cart__amount" id="cartAmount"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container container--cart">
+        <div class="cart" id="cart">
+            <div class="cart__box">
+                <div class="cart__inner">
+                    <h3 class="cart__title">Cart</h3>
+                    <div class="cart-product__list">
+                        <!-- <div class="cart-product__item">
+                            <img src="img/shoes-1.png" alt="" class="cart-product__img">
+                            <div class="cart-product__info">
+                                <h4 class="cart-product__title">Shoes 1</h4>
+                                <p class="cart-product__size">Size 11</p>
+                            </div>
+                            <p class="cart-product__price">1 990 Kč</p>
+                        </div> -->
+                    </div>
+                    <div class="cart__button">
+                        <button class="btn btn--cart">CHECK OUT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="main" id="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="brand">
+                    <a href="#" class="brand__item"><img src="img/logos/logo-asos.svg" alt="" class="brand__logo"></a>
+                    <a href="#" class="brand__item"><img src="img/logos/logo-burberry.svg" alt="" class="brand__logo"></a>
+                    <a href="#" class="brand__item"><img src="img/logos/logo-columbia.svg" alt="" class="brand__logo"></a>
+                    <a href="#" class="brand__item"><img src="img/logos/logo-seiko.svg" alt="" class="brand__logo"></a>
+                    <a href="#" class="brand__item"><img src="img/logos/logo-avon.svg" alt="" class="brand__logo"></a>
+                    <a href="#" class="brand__item"><img src="img/logos/logo-cartier.svg" alt="" class="brand__logo"></a>
+                </div>
+                <div class="main__box">
+                    <nav class="nav">
+                        <h3 class="nav__title">Categories</h3>
+                        <div class="nav__links">
+                            <a href="#">Women's Shoes</a>
+                            <a href="#">Men's Shoes</a>
+                            <a href="#">Kids Shoes</a>
+                            <a href="#">Winter Shoes</a>
+                            <a href="#">Sneakers</a>
+                        </div>
+                    </nav>
+                    <div class="product">
+                        <div class="product__list">
+                            <div class="product__item" >
+                                <div class="product__card">
+                                    <img src="img/shoes-1.png" alt="" class="product__img">
+                                    <div class="product__info">
+                                        <h4 class="product__title">Shoes1</h4>
+                                        <p class="product__price">1 990 Kč</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn--add">
+                                    <img src="img/icons/icon-add.svg" alt="">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+
+                            <div class="product__item" >
+                                <div class="product__card">
+                                    <img src="img/shoes-2.png" alt="" class="product__img">
+                                    <div class="product__info">
+                                        <h4 class="product__title">Shoes2</h4>
+                                        <p class="product__price">3 590 Kč</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn--add">
+                                    <img src="img/icons/icon-add.svg" alt="">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+
+                            <div class="product__item" >
+                                <div class="product__card">
+                                    <img src="img/shoes-3.png" alt="" class="product__img">
+                                    <div class="product__info">
+                                        <h4 class="product__title">Shoes3</h4>
+                                        <p class="product__price">2 490 Kč</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn--add">
+                                    <img src="img/icons/icon-add.svg" alt="">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+
+                            <div class="product__item" >
+                                <div class="product__card">
+                                    <img src="img/shoes-4.png" alt="" class="product__img">
+                                    <div class="product__info">
+                                        <h4 class="product__title">Shoes4</h4>
+                                        <p class="product__price">3 190 Kč</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn--add">
+                                    <img src="img/icons/icon-add.svg" alt="">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+
+                            <div class="product__item" >
+                                <div class="product__card">
+                                    <img src="img/shoes-5.png" alt="" class="product__img">
+                                    <div class="product__info">
+                                        <h4 class="product__title">Shoes5</h4>
+                                        <p class="product__price">2 990 Kč</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn--add">
+                                    <img src="img/icons/icon-add.svg" alt="">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+
+                            <div class="product__item" >
+                                <div class="product__card">
+                                    <img src="img/shoes-6.png" alt="" class="product__img">
+                                    <div class="product__info">
+                                        <h4 class="product__title">Shoes6</h4>
+                                        <p class="product__price">1 690 Kč</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn--add">
+                                    <img src="img/icons/icon-add.svg" alt="">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="btn btn--expand">SHOW ALL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
